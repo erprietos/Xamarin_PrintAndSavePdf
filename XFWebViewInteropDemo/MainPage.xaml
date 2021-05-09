@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="XFWebViewInteropDemo.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:iOsSpecific="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Xamarin Forms - WebView Interop Demo"
+    iOsSpecific:Page.UseSafeArea="true"
+    mc:Ignorable="d">
+
+    <StackLayout Padding="10,10,10,10">
+
+        <!--  Place new controls here  -->
+        <Label
+            HorizontalOptions="Start"
+            Text="Welcome to Xamarin.Forms!"
+            VerticalOptions="StartAndExpand" />
+
+        
+        <Button
+            x:Name="GoToHybridWebViewButton"
+            BackgroundColor="#2196F3"
+            Clicked="GoToHybridWebViewButton_OnClicked"
+            Text="Go to ATO printing in web view demo"
+            TextColor="White"
+            VerticalOptions="End" />
+        <!--<Button
+            x:Name="GoToHybridWebViewChatButton"
+            BackgroundColor="#2196F3"
+            Clicked="GoToHybridWebViewChatButton_Clicked"
+            Text="Go to Hybrid WebView Chat Demo"
+            TextColor="White"
+            VerticalOptions="End" />-->
+    </StackLayout>
+
+</ContentPage>

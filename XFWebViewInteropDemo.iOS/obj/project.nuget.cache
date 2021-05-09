@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "RzX9eNJ+2WOf9UO+L+VSCrN/xZ7lyuDwhP8wwQKmTWN65SP0eSwFHR1Z6Jy1J+RHAAj5PAj0s4ZPVUZAwHMH0g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ricardo\\source\\repos\\Xamarin_PrintAndSavePdf\\XFWebViewInteropDemo.iOS\\XFWebViewInteropDemo.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ricardo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\ricardo\\.nuget\\packages\\xamarin.essentials\\1.2.0\\xamarin.essentials.1.2.0.nupkg.sha512",
+    "C:\\Users\\ricardo\\.nuget\\packages\\xamarin.forms\\4.3.0.991221\\xamarin.forms.4.3.0.991221.nupkg.sha512"
+  ],
+  "logs": []
+}
